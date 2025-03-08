@@ -1,0 +1,224 @@
+####################################
+# from generate_common_build_props
+# These properties identify this partition image.
+####################################
+ro.product.system.brand=POCO
+ro.product.system.device=peridot
+ro.product.system.manufacturer=Xiaomi
+ro.product.system.model=24069PC21G
+ro.product.system.name=peridot_global
+ro.system.product.cpu.abilist=arm64-v8a
+ro.system.product.cpu.abilist32=
+ro.system.product.cpu.abilist64=arm64-v8a
+ro.system.build.date=Mon Feb 24 04:22:23 IST 2025
+ro.system.build.date.utc=1740351143
+ro.system.build.fingerprint=POCO/peridot_global/peridot:14/UKQ1.240116.001/V816.0.10.0.UNPMIXM:user/release-keys
+ro.system.build.id=AP4A.250205.002
+ro.system.build.tags=release-keys
+ro.system.build.type=user
+ro.system.build.version.incremental=eng.nobody.20250224.042224
+ro.system.build.version.release=15
+ro.system.build.version.release_or_codename=15
+ro.system.build.version.sdk=35
+####################################
+# from gen_build_prop.py:generate_build_info
+####################################
+# begin build properties
+ro.build.fingerprint=POCO/peridot_global/peridot:14/UKQ1.240116.001/V816.0.10.0.UNPMIXM:user/release-keys
+ro.build.id=AP4A.250205.002
+ro.build.display.id=AP4A.250205.002 release-keys
+ro.build.version.incremental=eng.nobody.20250224.042224
+ro.build.version.sdk=35
+ro.build.version.preview_sdk=0
+ro.build.version.preview_sdk_fingerprint=REL
+ro.build.version.codename=REL
+ro.build.version.all_codenames=REL
+ro.build.version.known_codenames=Base,Base11,Cupcake,Donut,Eclair,Eclair01,EclairMr1,Froyo,Gingerbread,GingerbreadMr1,Honeycomb,HoneycombMr1,HoneycombMr2,IceCreamSandwich,IceCreamSandwichMr1,JellyBean,JellyBeanMr1,JellyBeanMr2,Kitkat,KitkatWatch,Lollipop,LollipopMr1,M,N,NMr1,O,OMr1,P,Q,R,S,Sv2,Tiramisu,UpsideDownCake,VanillaIceCream
+ro.build.version.release=15
+ro.build.version.release_or_codename=15
+ro.build.version.release_or_preview_display=15
+ro.build.version.security_patch=2025-02-05
+ro.build.version.base_os=
+ro.build.version.min_supported_target_sdk=28
+ro.build.date=Mon Feb 24 04:22:23 IST 2025
+ro.build.date.utc=1740351143
+ro.build.type=user
+ro.build.user=nobody
+ro.build.host=android-build
+ro.build.tags=release-keys
+ro.build.flavor=yaap_peridot-user
+# ro.product.cpu.abi and ro.product.cpu.abi2 are obsolete,
+# use ro.product.cpu.abilist instead.
+ro.product.cpu.abi=arm64-v8a
+ro.product.locale=en-US
+ro.wifi.channels=
+# ro.build.product is obsolete; use ro.product.device
+ro.build.product=peridot
+ro.yaap.device=peridot
+# Do not try to parse description or thumbprint
+ro.build.description=peridot_global-user 14 UKQ1.240116.001 V816.0.10.0.UNPMIXM release-keys
+# end build properties
+####################################
+# from device/xiaomi/peridot-miuicamera/system.prop
+####################################
+# Camera
+persist.vendor.camera.privapp.list=org.codeaurora.snapcam,com.android.camera
+ro.com.google.lens.oem_camera_package=com.android.camera
+ro.hardware.camera=xiaomi
+ro.miui.notch=1
+ro.product.mod_device=peridot_global
+####################################
+# from device/xiaomi/peridot/configs/props/system.prop
+####################################
+# Camera
+persist.vendor.camera.privapp.list=org.codeaurora.snapcam,com.android.camera
+ro.com.google.lens.oem_camera_package=com.android.camera
+ro.hardware.camera=xiaomi
+ro.miui.notch=1
+ro.product.mod_device=peridot_global
+vendor.camera.aux.packagelist=org.lineageos.aperture,com.android.camera,com.google.camera,com.snapchat.android
+# Dexopt
+pm.dexopt.post-boot=speed
+pm.dexopt.first-boot=speed
+pm.dexopt.boot-after-ota=speed-profile
+pm.dexopt.boot-after-mainline-update=speed
+pm.dexopt.install=speed-profile
+pm.dexopt.install-fast=speed
+pm.dexopt.install-bulk=speed-profile
+pm.dexopt.install-bulk-secondary=speed
+pm.dexopt.install-bulk-downgraded=speed
+pm.dexopt.install-bulk-secondary-downgraded=speed
+pm.dexopt.bg-dexopt=speed-profile
+pm.dexopt.ab-ota=speed-profile
+pm.dexopt.inactive=speed
+pm.dexopt.cmdline=speed
+pm.dexopt.first-use=speed-profile
+pm.dexopt.secondary=speed-profile
+pm.dexopt.shared=speed
+# Media
+media.settings.xml=/vendor/etc/media_profiles_cliffs_v0.xml
+media.stagefright.thumbnail.prefer_hw_codecs=true
+# IMS
+persist.dbg.ims_volte_enable=1
+persist.dbg.volte_avail_ovr=1
+persist.dbg.vt_avail_ovr=1
+persist.dbg.wfc_avail_ovr=1
+# Radio Options
+persist.radio.volte.dan_support=true
+persist.radio.rat_on=combine
+persist.radio.data_ltd_sys_ind=1
+persist.radio.data_con_rprt=1
+persist.radio.calls.on.ims=1
+persist.radio.VT_ENABLE=1
+# Other Options
+persist.sys.cust.lte_config=true
+persist.rcs.supported=1
+# Radio VoNR Calling
+persist.radio.is_vonr_enabled_0=true
+persist.radio.is_vonr_enabled_1=true
+persist.vendor.vonr_setting_support=1
+# Disable default frame rate limit for games
+debug.graphics.game_default_frame_rate.disabled=1
+# QTI Mem Optimisation
+persist.vendor.sys.memplus.enable=false
+ro.vendor.qti.sys.fw.bg_apps_limit=30
+ro.vendor.qti.sys.fw.bservice_limit=60
+####################################
+# from variable ADDITIONAL_SYSTEM_PROPERTIES
+####################################
+ro.treble.enabled=true
+ro.llndk.api_level=202404
+ro.actionable_compatible_property.enabled=true
+ro.postinstall.fstab.prefix=/system
+ro.secure=1
+security.perf_harden=1
+ro.adb.secure=1
+ro.allow.mock.location=0
+ro.debuggable=0
+net.bt.name=Android
+ro.force.debuggable=0
+####################################
+# from variable PRODUCT_SYSTEM_PROPERTIES
+####################################
+debug.atrace.tags.enableflags=0
+persist.traced.enable=1
+dalvik.vm.image-dex2oat-Xms=64m
+dalvik.vm.image-dex2oat-Xmx=64m
+dalvik.vm.dex2oat-Xms=64m
+dalvik.vm.dex2oat-Xmx=512m
+dalvik.vm.usejit=true
+dalvik.vm.dexopt.secondary=true
+dalvik.vm.dexopt.thermal-cutoff=2
+dalvik.vm.appimageformat=lz4
+ro.dalvik.vm.native.bridge=0
+# Removed by post_process_props.py because overridden by pm.dexopt.post-boot=speed
+#pm.dexopt.post-boot?=verify
+# Removed by post_process_props.py because overridden by pm.dexopt.first-boot=speed
+#pm.dexopt.first-boot?=verify
+# Removed by post_process_props.py because overridden by pm.dexopt.boot-after-ota=speed-profile
+#pm.dexopt.boot-after-ota?=verify
+# Removed by post_process_props.py because overridden by pm.dexopt.boot-after-mainline-update=speed
+#pm.dexopt.boot-after-mainline-update?=verify
+# Removed by post_process_props.py because overridden by pm.dexopt.install=speed-profile
+#pm.dexopt.install?=speed-profile
+# Removed by post_process_props.py because overridden by pm.dexopt.install-fast=speed
+#pm.dexopt.install-fast?=skip
+# Removed by post_process_props.py because overridden by pm.dexopt.install-bulk=speed-profile
+#pm.dexopt.install-bulk?=speed-profile
+# Removed by post_process_props.py because overridden by pm.dexopt.install-bulk-secondary=speed
+#pm.dexopt.install-bulk-secondary?=verify
+# Removed by post_process_props.py because overridden by pm.dexopt.install-bulk-downgraded=speed
+#pm.dexopt.install-bulk-downgraded?=verify
+# Removed by post_process_props.py because overridden by pm.dexopt.install-bulk-secondary-downgraded=speed
+#pm.dexopt.install-bulk-secondary-downgraded?=verify
+# Removed by post_process_props.py because overridden by pm.dexopt.bg-dexopt=speed-profile
+#pm.dexopt.bg-dexopt?=speed-profile
+# Removed by post_process_props.py because overridden by pm.dexopt.ab-ota=speed-profile
+#pm.dexopt.ab-ota?=speed-profile
+# Removed by post_process_props.py because overridden by pm.dexopt.inactive=speed
+#pm.dexopt.inactive?=verify
+# Removed by post_process_props.py because overridden by pm.dexopt.cmdline=speed
+#pm.dexopt.cmdline?=verify
+# Removed by post_process_props.py because overridden by pm.dexopt.shared=speed
+#pm.dexopt.shared?=speed
+dalvik.vm.dex2oat-resolve-startup-strings=true
+dalvik.vm.dex2oat-max-image-block-size=524288
+dalvik.vm.minidebuginfo=true
+dalvik.vm.dex2oat-minidebuginfo=true
+dalvik.vm.madvise.vdexfile.size=104857600
+dalvik.vm.madvise.odexfile.size=104857600
+dalvik.vm.madvise.artfile.size=4294967295
+dalvik.vm.usap_pool_enabled=false
+dalvik.vm.usap_refill_threshold=1
+dalvik.vm.usap_pool_size_max=3
+dalvik.vm.usap_pool_size_min=1
+dalvik.vm.usap_pool_refill_delay_ms=3000
+dalvik.vm.useartservice=true
+dalvik.vm.enable_pr_dexopt=true
+ro.cp_system_other_odex=1
+ro.apex.updatable=true
+####################################
+# from variable PRODUCT_SYSTEM_DEFAULT_PROPERTIES
+####################################
+dalvik.vm.debug.alloc=0
+keyguard.no_require_sim=true
+media.recorder.show_manufacturer_and_model=true
+net.tethering.noprovisioning=true
+persist.sys.disable_rescue=true
+ro.carrier=unknown
+ro.com.android.dataroaming=false
+ro.opa.eligible_device=true
+ro.setupwizard.enterprise_mode=1
+ro.storage_manager.enabled=true
+ro.url.legal=http://www.google.com/intl/%s/mobile/android/basic/phone-legal.html
+ro.url.legal.android_privacy=http://www.google.com/intl/%s/mobile/android/basic/privacy.html
+ro.boot.vendor.overlay.theme=com.android.internal.systemui.navbar.gestural
+ro.yaap.build.version=15
+ro.yaap.build.date=20250224
+ro.yaap.buildtype=Voyager
+ro.yaap.fingerprint=YAAP/15/peridot/2252
+ro.yaap.version=15-Voyager-peridot-20250224
+ro.yaap.device=peridot
+ro.modversion=15-Voyager-peridot-20250224
+dalvik.vm.systemuicompilerfilter=speed
+# end of file
