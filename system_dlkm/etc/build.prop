@@ -1,0 +1,20 @@
+####################################
+# from generate-common-build-props
+# These properties identify this partition image.
+####################################
+ro.product.system_dlkm.brand=POCO
+ro.product.system_dlkm.device=peridot
+ro.product.system_dlkm.manufacturer=Xiaomi
+ro.product.system_dlkm.model=24069PC21G
+ro.product.system_dlkm.name=peridot_global
+ro.system_dlkm.build.date=Mon Feb 24 04:22:23 IST 2025
+ro.system_dlkm.build.date.utc=1740351143
+ro.system_dlkm.build.fingerprint=POCO/peridot_global/peridot:14/UKQ1.240116.001/V816.0.10.0.UNPMIXM:user/release-keys
+ro.system_dlkm.build.id=AP4A.250205.002
+ro.system_dlkm.build.tags=release-keys
+ro.system_dlkm.build.type=user
+ro.system_dlkm.build.version.incremental=eng.nobody.20250224.042224
+ro.system_dlkm.build.version.release=15
+ro.system_dlkm.build.version.release_or_codename=15
+ro.system_dlkm.build.version.sdk=35
+# end of file

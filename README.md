@@ -1,0 +1,14 @@
+# peridot_global-user 14 UKQ1.240116.001 V816.0.10.0.UNPMIXM release-keys
+- manufacturer: xiaomi
+- platform: pineapple
+- codename: peridot
+- flavor: yaap_peridot-user
+- release: 15
+- id: AP4A.250205.002
+- incremental: eng.nobody.20250224.042224
+- tags: release-keys
+- fingerprint: POCO/peridot_global/peridot:14/UKQ1.240116.001/V816.0.10.0.UNPMIXM:user/release-keys
+- is_ab: true
+- brand: POCO
+- branch: peridot_global-user-14-UKQ1.240116.001-V816.0.10.0.UNPMIXM-release-keys
+- repo: poco_peridot_dump
